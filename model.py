@@ -143,20 +143,11 @@ class PureMF_TPAB(BasicModel):
         users_emb = self.embedding_user(users.long())
         pos_emb   = self.embedding_item(pos.long())
         neg_emb   = self.embedding_item(neg.long())
-        
-        if 'global' in world.config['algo']:
-            # true popularity: pos_pop, neg_pop; 
-            # pos_pop => list of list of user popularity at each stage
-            # extract the user popularity at the current stage using "stage"
-            pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-            neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-        else:
-            # predicted popularity: pos_pred_pop, neg_pred_pop, pos_pred_local_pop, neg_pred_local_pop
-            pos_pred_pop = predictor(stage, pos_pop)
-            neg_pred_pop = predictor(stage, neg_pop)
-        
+
+        pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+
         users_pop_emb = self.embedding_user_pop(users.long())
-        users_pop_emb = users_emb
 
         pos_pop_emb = self.get_pop_embeddings(pos_pred_pop, 'item')
         neg_pop_emb = self.get_pop_embeddings(neg_pred_pop, 'item')
@@ -165,9 +156,11 @@ class PureMF_TPAB(BasicModel):
         pos_scores_pop = torch.sum(users_pop_emb*pos_pop_emb, dim=1) 
         neg_scores = torch.sum(users_emb*neg_emb, dim=1)
         neg_scores_pop = torch.sum(users_pop_emb*neg_pop_emb, dim=1) 
+        
 
         pos_scores = pos_scores + pos_scores_pop
         neg_scores = neg_scores + neg_scores_pop
+
         
         reg_loss = (1/2)*(users_emb.norm(2).pow(2) + pos_emb.norm(2).pow(2) + neg_emb.norm(2).pow(2)
                     +users_pop_emb.norm(2).pow(2) + pos_pop_emb.norm(2).pow(2) + neg_pop_emb.norm(2).pow(2)
@@ -177,9 +170,8 @@ class PureMF_TPAB(BasicModel):
         loss = loss + reg_loss * self.weight_decay
 
         if world.config['lambda'] > 0:
-            if 'switch' in world.config['algo']:
-                loss_pop = self.switch_concat_(users_emb, pos_emb, neg_emb, users_pop_emb, pos_pop_emb, neg_pop_emb, pos_pop, neg_pop, len(users))
-                loss += world.config['lambda'] * loss_pop
+            loss_pop = self.switch_concat_(users_emb, pos_emb, neg_emb, users_pop_emb, pos_pop_emb, neg_pop_emb, pos_pop, neg_pop, len(users))
+            loss += world.config['lambda'] * loss_pop
         
         return loss
 
@@ -551,43 +543,36 @@ class LightGCN_TPAB(BasicModel):
         # neg_emb   = self.embedding_item(neg.long())
         (users_emb, pos_emb, neg_emb, 
         userEmb0,  posEmb0, negEmb0) = self.getEmbedding(users.long(), pos.long(), neg.long())
-        
-        # all embeddings -> graph convolution
-        if 'global' in world.config['algo']:
-            item_idx = self.get_reindexed_list(self.dataset.global_item_pop_idx, 'item')
-            user_idx = users.long()
-            self.all_users_pop, self.all_items_pop = self.computer_p(self.embedding_user_pop.weight,
-                                                    self.embedding_item_pop.weight[item_idx])
-            userpopEmb0 = self.embedding_user_pop(users.long())
 
-            users_pop_emb = self.all_users_pop[users.long()]
-            pos_pop_emb = self.all_items_pop[pos.long()]
-            neg_pop_emb = self.all_items_pop[neg.long()]
-            pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
-            negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
+        # true popularity: pos_pop, neg_pop; 
+        # pos_pop => list of list of user popularity at each stage
+        # extract the user popularity at the current stage using "stage"
+        pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        pos_pred_local_pop = (pos_local_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        neg_pred_local_pop = (neg_local_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        users_pred_pop = (users_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
 
-        #elif 'tempgcn' in world.config['algo']:
-        else:
-            item_idx_list = self.dataset.sep_temporal_item_pop_idx
-            # graph convolution for each time stage graph
-            all_users_pop = []
-            all_items_pop = []
-            for time in range(world.config['period']):
-                item_idx = self.get_reindexed_list(item_idx_list[time], 'item')
-                all_users_pop_t, all_items_pop_t = self.computer_p(self.embedding_user_pop.weight,
-                                                                self.embedding_item_pop.weight[item_idx])
-                all_users_pop.append(all_users_pop_t)
-                all_items_pop.append(all_items_pop_t)
+        item_idx_list = self.dataset.sep_temporal_item_pop_idx
+        # graph convolution for each time stage graph
+        all_users_pop = []
+        all_items_pop = []
+        for time in range(world.config['period']):
+            item_idx = self.get_reindexed_list(item_idx_list[time], 'item')
+            all_users_pop_t, all_items_pop_t = self.computer_p(self.embedding_user_pop.weight,
+                                                            self.embedding_item_pop.weight[item_idx])
+            all_users_pop.append(all_users_pop_t)
+            all_items_pop.append(all_items_pop_t)
 
-            all_users_pop = torch.stack(all_users_pop, dim=0)
-            all_items_pop = torch.stack(all_items_pop, dim=0)
+        all_users_pop = torch.stack(all_users_pop, dim=0)
+        all_items_pop = torch.stack(all_items_pop, dim=0)
 
-            pos_pop_emb = all_items_pop[stage, pos.long()]
-            neg_pop_emb = all_items_pop[stage, neg.long()]
-            users_pop_emb = all_users_pop[stage, users.long()]
-            userpopEmb0 = self.embedding_user_pop(users.long())
-            pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
-            negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
+        pos_pop_emb = all_items_pop[stage, pos.long()]
+        neg_pop_emb = all_items_pop[stage, neg.long()]
+        users_pop_emb = all_users_pop[stage, users.long()]
+        userpopEmb0 = self.embedding_user_pop(users.long())
+        pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
+        negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
 
         # Compute losses based on the embeddings
         pos_scores = torch.sum(users_emb*pos_emb, dim=1)
@@ -607,10 +592,9 @@ class LightGCN_TPAB(BasicModel):
 
         # Bootstrapping loss
         if world.config['lambda'] > 0:
-            if 'switch' in world.config['algo']:
-                loss_pop = self.switch_concat_(users_emb, pos_emb, neg_emb, userEmb0, posEmb0, negEmb0, 
-                            users_pop_emb, pos_pop_emb, neg_pop_emb, userpopEmb0, pospopEmb0, negpopEmb0, pos_pop, neg_pop, len(users))
-                loss += world.config['lambda'] * loss_pop
+            loss_pop = self.switch_concat_(users_emb, pos_emb, neg_emb, userEmb0, posEmb0, negEmb0, 
+                        users_pop_emb, pos_pop_emb, neg_pop_emb, userpopEmb0, pospopEmb0, negpopEmb0, pos_pop, neg_pop, len(users))
+            loss += world.config['lambda'] * loss_pop
         
         return loss
 

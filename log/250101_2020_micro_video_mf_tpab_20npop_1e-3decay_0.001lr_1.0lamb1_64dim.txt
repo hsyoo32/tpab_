@@ -1,0 +1,1041 @@
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:End train and valid. Best validation epoch is 330.
+INFO:root:Validation:
+INFO:root:[Valid]: Precision: 0.0305-0.0246-0.0158-0.0104 Recall: 0.0983-0.1406-0.2067-0.254 NDCG: 0.0698-0.084-0.103-0.1147 MRR: 0.0857-0.0894-0.092-0.0927
+INFO:root:Validation:
+INFO:root:Recall@10	0.0983
+NDCG@10	0.0698
+Recall@20	0.1406
+NDCG@20	0.084
+Recall@50	0.2067
+NDCG@50	0.103
+
+INFO:root:[Test]: Precision: 0.0248-0.0201-0.0141-0.0097 Recall: 0.0801-0.1189-0.1826-0.2348 NDCG: 0.0574-0.0697-0.0879-0.1006 MRR: 0.0732-0.0772-0.0797-0.0806
+INFO:root:Test:
+INFO:root:Recall@10	0.0801
+NDCG@10	0.0574
+Recall@20	0.1189
+NDCG@20	0.0697
+Recall@50	0.1826
+NDCG@50	0.0879
+
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:EPOCH[1/600] loss: 1.3578773736953735 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[2/600] loss: 1.2049673795700073 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[3/600] loss: 1.0040796995162964 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[4/600] loss: 0.8981021642684937 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[5/600] loss: 0.8386938571929932 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:EPOCH[1/600] loss: 1.335489273071289 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[2/600] loss: 1.033978819847107 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[3/600] loss: 0.7032907009124756 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[4/600] loss: 0.584027111530304 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[5/600] loss: 0.5366363525390625 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:./log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'tpab', 'log_file': './log/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt', 'lambda': 1.0, 'n_pop_group': 20}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:using Normal distribution N(0,1) initialization for PureMF_TPAB
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:EPOCH[1/600] loss: 1.335489273071289 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[2/600] loss: 1.033978819847107 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[3/600] loss: 0.7032907009124756 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[4/600] loss: 0.584027111530304 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[5/600] loss: 0.5366363525390625 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[6/600] loss: 0.5100228786468506 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[7/600] loss: 0.4854414761066437 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[8/600] loss: 0.4636159837245941 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[9/600] loss: 0.441441148519516 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[10/600] loss: 0.4186026155948639 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[11/600] loss: 0.3952357769012451 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[12/600] loss: 0.3705805540084839 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[13/600] loss: 0.346386581659317 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[14/600] loss: 0.3228735625743866 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[15/600] loss: 0.3027702271938324 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[16/600] loss: 0.28035879135131836 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[17/600] loss: 0.2623579204082489 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[18/600] loss: 0.24396662414073944 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[19/600] loss: 0.22790595889091492 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[20/600] loss: 0.21136386692523956 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[21/600] loss: 0.19654953479766846 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[22/600] loss: 0.18216785788536072 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[23/600] loss: 0.17032264173030853 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[24/600] loss: 0.16106528043746948 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[25/600] loss: 0.14966058731079102 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[26/600] loss: 0.140339657664299 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[27/600] loss: 0.13188521564006805 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[28/600] loss: 0.12539885938167572 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[29/600] loss: 0.1179785281419754 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[30/600] loss: 0.11169534921646118 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[31/600] loss: 0.10478579252958298 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[32/600] loss: 0.10000093281269073 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[33/600] loss: 0.09481023997068405 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[34/600] loss: 0.0906941220164299 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[35/600] loss: 0.0862160325050354 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[36/600] loss: 0.08194337785243988 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[37/600] loss: 0.07828056067228317 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[38/600] loss: 0.07526618242263794 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[39/600] loss: 0.07177666574716568 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[40/600] loss: 0.0694320872426033 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[41/600] loss: 0.06651261448860168 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[42/600] loss: 0.06437288969755173 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[43/600] loss: 0.06207594648003578 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[44/600] loss: 0.06024770438671112 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[45/600] loss: 0.05826473608613014 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[46/600] loss: 0.055697422474622726 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[47/600] loss: 0.0547872856259346 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[48/600] loss: 0.05336543172597885 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[49/600] loss: 0.0510171502828598 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[50/600] loss: 0.0502714142203331 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[51/600] loss: 0.04891926422715187 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[52/600] loss: 0.047697532922029495 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[53/600] loss: 0.04644596204161644 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[54/600] loss: 0.04565514251589775 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[55/600] loss: 0.044660329818725586 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[56/600] loss: 0.04352670535445213 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[57/600] loss: 0.04252064973115921 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[58/600] loss: 0.04167212173342705 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[59/600] loss: 0.04088103398680687 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[60/600] loss: 0.040311940014362335 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[61/600] loss: 0.03989813104271889 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[62/600] loss: 0.039054177701473236 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[63/600] loss: 0.03836970776319504 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[64/600] loss: 0.03776957839727402 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[65/600] loss: 0.037385646253824234 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[66/600] loss: 0.03679079934954643 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[67/600] loss: 0.03614864498376846 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[68/600] loss: 0.03570403903722763 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[69/600] loss: 0.035495735704898834 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[70/600] loss: 0.03472200408577919 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[71/600] loss: 0.03445860743522644 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[72/600] loss: 0.03421000763773918 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[73/600] loss: 0.03389577567577362 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[74/600] loss: 0.033491142094135284 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[75/600] loss: 0.0332302562892437 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[76/600] loss: 0.03250958025455475 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[77/600] loss: 0.032457876950502396 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[78/600] loss: 0.03232220560312271 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[79/600] loss: 0.03173045441508293 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[80/600] loss: 0.03160771355032921 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[81/600] loss: 0.03151177614927292 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[82/600] loss: 0.0312427319586277 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[83/600] loss: 0.03077087365090847 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[84/600] loss: 0.030744988471269608 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[85/600] loss: 0.030631795525550842 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[86/600] loss: 0.03031015582382679 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[87/600] loss: 0.03004288487136364 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[88/600] loss: 0.029783252626657486 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[89/600] loss: 0.02969852276146412 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[90/600] loss: 0.029791617766022682 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[91/600] loss: 0.02937649004161358 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[92/600] loss: 0.02918398007750511 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[93/600] loss: 0.029108092188835144 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[94/600] loss: 0.02900114841759205 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[95/600] loss: 0.02887900546193123 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[96/600] loss: 0.02857275679707527 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[97/600] loss: 0.028604889288544655 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[98/600] loss: 0.028363341465592384 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[99/600] loss: 0.028242340311408043 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[100/600] loss: 0.028195371851325035 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[101/600] loss: 0.028010664507746696 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[102/600] loss: 0.027961868792772293 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[103/600] loss: 0.02781709097325802 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[104/600] loss: 0.027632884681224823 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[105/600] loss: 0.027497604489326477 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[106/600] loss: 0.027509979903697968 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[107/600] loss: 0.027335310354828835 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[108/600] loss: 0.02727895975112915 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[109/600] loss: 0.02728351019322872 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[110/600] loss: 0.027163440361618996 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[111/600] loss: 0.027016200125217438 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[112/600] loss: 0.026924196630716324 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[113/600] loss: 0.026898493990302086 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[114/600] loss: 0.02676437422633171 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[115/600] loss: 0.026772290468215942 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[116/600] loss: 0.02658935636281967 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[117/600] loss: 0.02651807852089405 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[118/600] loss: 0.026521340012550354 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[119/600] loss: 0.026278119534254074 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[120/600] loss: 0.02637873962521553 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[121/600] loss: 0.026391994208097458 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[122/600] loss: 0.026263020932674408 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[123/600] loss: 0.02614819072186947 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[124/600] loss: 0.026170233264565468 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[125/600] loss: 0.026072923094034195 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[126/600] loss: 0.02597712352871895 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[127/600] loss: 0.025931941345334053 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[128/600] loss: 0.025874685496091843 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[129/600] loss: 0.02591637335717678 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[130/600] loss: 0.025855733081698418 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[131/600] loss: 0.025736328214406967 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[132/600] loss: 0.025753727182745934 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[133/600] loss: 0.025694889947772026 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[134/600] loss: 0.025656582787632942 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[135/600] loss: 0.025559965521097183 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[136/600] loss: 0.025487776845693588 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[137/600] loss: 0.025418313220143318 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[138/600] loss: 0.025591542944312096 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[139/600] loss: 0.025452347472310066 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[140/600] loss: 0.025375215336680412 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[141/600] loss: 0.025333959609270096 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[142/600] loss: 0.025321999564766884 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[143/600] loss: 0.02525453455746174 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[144/600] loss: 0.025217872112989426 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[145/600] loss: 0.02531326189637184 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[146/600] loss: 0.02519368752837181 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[147/600] loss: 0.025160258635878563 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[148/600] loss: 0.025052102282643318 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[149/600] loss: 0.025046195834875107 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[150/600] loss: 0.025088639929890633 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[151/600] loss: 0.025024238973855972 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[152/600] loss: 0.024944132193922997 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[153/600] loss: 0.024989867582917213 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[154/600] loss: 0.024951614439487457 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[155/600] loss: 0.02495778724551201 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[156/600] loss: 0.024948367848992348 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[157/600] loss: 0.02483329363167286 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[158/600] loss: 0.024831291288137436 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[159/600] loss: 0.024774370715022087 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[160/600] loss: 0.024831941351294518 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[161/600] loss: 0.024789627641439438 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[162/600] loss: 0.024767491966485977 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[163/600] loss: 0.024713868275284767 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[164/600] loss: 0.02470548264682293 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[165/600] loss: 0.02467839978635311 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[166/600] loss: 0.02465127781033516 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[167/600] loss: 0.024633636698126793 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[168/600] loss: 0.024615803733468056 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[169/600] loss: 0.024554535746574402 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[170/600] loss: 0.024490226060152054 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[171/600] loss: 0.024491677060723305 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[172/600] loss: 0.024455325677990913 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[173/600] loss: 0.02449074201285839 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[174/600] loss: 0.024487312883138657 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[175/600] loss: 0.024413716048002243 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[176/600] loss: 0.024470023810863495 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[177/600] loss: 0.024474110454320908 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[178/600] loss: 0.024368928745388985 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[179/600] loss: 0.024469517171382904 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[180/600] loss: 0.024422122165560722 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[181/600] loss: 0.024360282346606255 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[182/600] loss: 0.024320323020219803 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[183/600] loss: 0.02430291846394539 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[184/600] loss: 0.02428492344915867 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[185/600] loss: 0.02421664446592331 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[186/600] loss: 0.024207647889852524 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[187/600] loss: 0.024287478998303413 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[188/600] loss: 0.024245042353868484 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[189/600] loss: 0.024185482412576675 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[190/600] loss: 0.02424740232527256 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[191/600] loss: 0.024178752675652504 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[192/600] loss: 0.024159498512744904 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[193/600] loss: 0.024227265268564224 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[194/600] loss: 0.024092232808470726 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[195/600] loss: 0.024189909920096397 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[196/600] loss: 0.024157267063856125 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[197/600] loss: 0.024177420884370804 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[198/600] loss: 0.024105262011289597 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[199/600] loss: 0.024072755128145218 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[200/600] loss: 0.024020517244935036 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[201/600] loss: 0.024191292002797127 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[202/600] loss: 0.02403724193572998 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[203/600] loss: 0.02403384819626808 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[204/600] loss: 0.024118665605783463 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[205/600] loss: 0.024051116779446602 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[206/600] loss: 0.023970458656549454 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[207/600] loss: 0.02398853749036789 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[208/600] loss: 0.023986347019672394 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[209/600] loss: 0.024026889353990555 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[210/600] loss: 0.02391570806503296 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[211/600] loss: 0.02412441559135914 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[212/600] loss: 0.02393740974366665 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[213/600] loss: 0.02391940914094448 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[214/600] loss: 0.023985885083675385 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[215/600] loss: 0.023930899798870087 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[216/600] loss: 0.02389409951865673 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[217/600] loss: 0.02389635518193245 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[218/600] loss: 0.023877432569861412 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[219/600] loss: 0.02386256866157055 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[220/600] loss: 0.024004081264138222 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[221/600] loss: 0.023945888504385948 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[222/600] loss: 0.023877007886767387 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[223/600] loss: 0.023912087082862854 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[224/600] loss: 0.02385677583515644 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[225/600] loss: 0.02377004735171795 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[226/600] loss: 0.02386591210961342 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[227/600] loss: 0.02381862886250019 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[228/600] loss: 0.02379128895699978 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[229/600] loss: 0.023775609210133553 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[230/600] loss: 0.023878058418631554 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[231/600] loss: 0.0239480659365654 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[232/600] loss: 0.023824898526072502 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[233/600] loss: 0.023745369166135788 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[234/600] loss: 0.023779157549142838 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[235/600] loss: 0.023793239146471024 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[236/600] loss: 0.023684274405241013 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[237/600] loss: 0.023737557232379913 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[238/600] loss: 0.02375020459294319 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[239/600] loss: 0.023697931319475174 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[240/600] loss: 0.023800313472747803 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[241/600] loss: 0.02372276782989502 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[242/600] loss: 0.02371358498930931 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[243/600] loss: 0.023798398673534393 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[244/600] loss: 0.023751599714159966 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[245/600] loss: 0.023712214082479477 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[246/600] loss: 0.02370460331439972 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[247/600] loss: 0.023745428770780563 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[248/600] loss: 0.023812193423509598 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[249/600] loss: 0.023658422753214836 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[250/600] loss: 0.023691784590482712 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[251/600] loss: 0.02367524802684784 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[252/600] loss: 0.023648547008633614 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[253/600] loss: 0.023642387241125107 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[254/600] loss: 0.023693298920989037 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[255/600] loss: 0.023564647883176804 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[256/600] loss: 0.023578695952892303 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[257/600] loss: 0.023582832887768745 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[258/600] loss: 0.023799104616045952 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[259/600] loss: 0.023725036531686783 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[260/600] loss: 0.023750895634293556 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[261/600] loss: 0.023650122806429863 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[262/600] loss: 0.023640740662813187 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[263/600] loss: 0.02365347184240818 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[264/600] loss: 0.02363106794655323 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[265/600] loss: 0.023782100528478622 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[266/600] loss: 0.023611798882484436 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[267/600] loss: 0.0236638393253088 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[268/600] loss: 0.023647170513868332 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[269/600] loss: 0.023649848997592926 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[270/600] loss: 0.023561619222164154 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[271/600] loss: 0.023544708266854286 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[272/600] loss: 0.02357671596109867 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[273/600] loss: 0.023531313985586166 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[274/600] loss: 0.02353878691792488 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[275/600] loss: 0.023642485961318016 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[276/600] loss: 0.023631012067198753 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[277/600] loss: 0.0236606877297163 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[278/600] loss: 0.023527923971414566 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[279/600] loss: 0.0235313568264246 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[280/600] loss: 0.023667477071285248 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[281/600] loss: 0.023510275408625603 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[282/600] loss: 0.023563802242279053 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[283/600] loss: 0.023504652082920074 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[284/600] loss: 0.023523520678281784 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[285/600] loss: 0.02353096380829811 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[286/600] loss: 0.023623060435056686 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[287/600] loss: 0.023452144116163254 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[288/600] loss: 0.023604504764080048 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[289/600] loss: 0.02356918714940548 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[290/600] loss: 0.02361568994820118 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[291/600] loss: 0.023499170318245888 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[292/600] loss: 0.023486126214265823 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[293/600] loss: 0.023578034713864326 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[294/600] loss: 0.023451054468750954 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[295/600] loss: 0.02349906414747238 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[296/600] loss: 0.023528194054961205 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[297/600] loss: 0.023543786257505417 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[298/600] loss: 0.023445988073945045 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[299/600] loss: 0.023368488997220993 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[300/600] loss: 0.023533184081315994 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[301/600] loss: 0.023413512855768204 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[302/600] loss: 0.023414088413119316 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[303/600] loss: 0.023533836007118225 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[304/600] loss: 0.02339147962629795 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[305/600] loss: 0.023395121097564697 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[306/600] loss: 0.023466244339942932 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[307/600] loss: 0.02356971986591816 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[308/600] loss: 0.02355647273361683 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[309/600] loss: 0.023576416075229645 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[310/600] loss: 0.0233143363147974 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[311/600] loss: 0.0235698651522398 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[312/600] loss: 0.02357976883649826 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[313/600] loss: 0.023546675220131874 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[314/600] loss: 0.02352595515549183 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[315/600] loss: 0.023413842543959618 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[316/600] loss: 0.023401333019137383 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[317/600] loss: 0.02348695881664753 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[318/600] loss: 0.02352006360888481 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[319/600] loss: 0.023602331057190895 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[320/600] loss: 0.023432845249772072 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[321/600] loss: 0.023454507812857628 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[322/600] loss: 0.02348451130092144 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[323/600] loss: 0.02329747937619686 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[324/600] loss: 0.023396331816911697 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[325/600] loss: 0.023355141282081604 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[326/600] loss: 0.023434611037373543 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[327/600] loss: 0.023362932726740837 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[328/600] loss: 0.023374658077955246 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[329/600] loss: 0.023376906290650368 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[330/600] loss: 0.023517534136772156 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[331/600] loss: 0.023500358685851097 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[332/600] loss: 0.02352241612970829 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[333/600] loss: 0.023365361616015434 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[334/600] loss: 0.02342849038541317 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[335/600] loss: 0.023385103791952133 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[336/600] loss: 0.023497477173805237 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[337/600] loss: 0.02348136529326439 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[338/600] loss: 0.02343917265534401 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[339/600] loss: 0.02344168722629547 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[340/600] loss: 0.023612964898347855 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[341/600] loss: 0.023409588262438774 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[342/600] loss: 0.023420099169015884 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[343/600] loss: 0.02348836325109005 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[344/600] loss: 0.023418527096509933 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[345/600] loss: 0.023471245542168617 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[346/600] loss: 0.023413220420479774 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[347/600] loss: 0.02347317896783352 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[348/600] loss: 0.02342180162668228 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[349/600] loss: 0.023434501141309738 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[350/600] loss: 0.023355161771178246 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[351/600] loss: 0.023424822837114334 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[352/600] loss: 0.023350873962044716 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[353/600] loss: 0.023491645231842995 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[354/600] loss: 0.023281140252947807 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[355/600] loss: 0.023446038365364075 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[356/600] loss: 0.023425595834851265 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[357/600] loss: 0.023337462916970253 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[358/600] loss: 0.02335430309176445 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[359/600] loss: 0.023395400494337082 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[360/600] loss: 0.02333029918372631 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[361/600] loss: 0.023469869047403336 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[362/600] loss: 0.023378169164061546 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[363/600] loss: 0.02342146262526512 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[364/600] loss: 0.02343345433473587 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[365/600] loss: 0.023233933374285698 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[366/600] loss: 0.023290103301405907 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[367/600] loss: 0.023397769778966904 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[368/600] loss: 0.023313600569963455 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[369/600] loss: 0.02324986830353737 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[370/600] loss: 0.02343888394534588 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[371/600] loss: 0.023388653993606567 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[372/600] loss: 0.023310840129852295 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[373/600] loss: 0.02322065271437168 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[374/600] loss: 0.02341427095234394 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[375/600] loss: 0.023351483047008514 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[376/600] loss: 0.02334265410900116 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[377/600] loss: 0.023279063403606415 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[378/600] loss: 0.023269442841410637 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[379/600] loss: 0.023523446172475815 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[380/600] loss: 0.023350786417722702 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[381/600] loss: 0.023313572630286217 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[382/600] loss: 0.023328060284256935 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[383/600] loss: 0.023387281224131584 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[384/600] loss: 0.023348858579993248 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[385/600] loss: 0.023253044113516808 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[386/600] loss: 0.02332151308655739 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[387/600] loss: 0.02335181087255478 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[388/600] loss: 0.02328772470355034 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[389/600] loss: 0.023273419588804245 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[390/600] loss: 0.023353496566414833 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[391/600] loss: 0.02340526692569256 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[392/600] loss: 0.023252220824360847 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[393/600] loss: 0.0234060101211071 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[394/600] loss: 0.023268040269613266 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[395/600] loss: 0.0232999324798584 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[396/600] loss: 0.023236993700265884 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[397/600] loss: 0.023251937702298164 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[398/600] loss: 0.023391198366880417 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[399/600] loss: 0.02336834743618965 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[400/600] loss: 0.023408066481351852 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[401/600] loss: 0.02331487275660038 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[402/600] loss: 0.02337643876671791 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[403/600] loss: 0.02345503307878971 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[404/600] loss: 0.0232449509203434 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[405/600] loss: 0.023252643644809723 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[406/600] loss: 0.0233440063893795 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[407/600] loss: 0.023237546905875206 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[408/600] loss: 0.02324163354933262 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[409/600] loss: 0.023270489647984505 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[410/600] loss: 0.023333804681897163 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[411/600] loss: 0.023265713825821877 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[412/600] loss: 0.023206649348139763 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[413/600] loss: 0.023195212706923485 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[414/600] loss: 0.02322685904800892 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[415/600] loss: 0.0233013778924942 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[416/600] loss: 0.02317732945084572 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[417/600] loss: 0.023288272321224213 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[418/600] loss: 0.023214617744088173 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[419/600] loss: 0.02340139076113701 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[420/600] loss: 0.023205550387501717 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[421/600] loss: 0.0232995692640543 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[422/600] loss: 0.023245565593242645 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[423/600] loss: 0.023242151364684105 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[424/600] loss: 0.023207826539874077 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[425/600] loss: 0.023221923038363457 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[426/600] loss: 0.02318635582923889 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[427/600] loss: 0.023221071809530258 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[428/600] loss: 0.023243827745318413 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[429/600] loss: 0.02333744429051876 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[430/600] loss: 0.023178810253739357 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[431/600] loss: 0.02328678034245968 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[432/600] loss: 0.02333102747797966 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[433/600] loss: 0.02318524569272995 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[434/600] loss: 0.023343948647379875 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[435/600] loss: 0.023182880133390427 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[436/600] loss: 0.023326251655817032 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[437/600] loss: 0.023203957825899124 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[438/600] loss: 0.023230085149407387 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[439/600] loss: 0.02320748381316662 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[440/600] loss: 0.023333756253123283 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[441/600] loss: 0.023184405639767647 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[442/600] loss: 0.023324426263570786 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[443/600] loss: 0.023095495998859406 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[444/600] loss: 0.023198258131742477 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[445/600] loss: 0.02315872721374035 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[446/600] loss: 0.023386800661683083 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[447/600] loss: 0.023286141455173492 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[448/600] loss: 0.023269236087799072 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[449/600] loss: 0.023267511278390884 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[450/600] loss: 0.023252785205841064 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[451/600] loss: 0.023357197642326355 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[452/600] loss: 0.023237621411681175 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[453/600] loss: 0.0233236663043499 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[454/600] loss: 0.02312929555773735 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[455/600] loss: 0.023275231942534447 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[456/600] loss: 0.023269986733794212 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[457/600] loss: 0.023277929052710533 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[458/600] loss: 0.023331882432103157 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[459/600] loss: 0.02327825501561165 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[460/600] loss: 0.02325884997844696 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[461/600] loss: 0.023336447775363922 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[462/600] loss: 0.023130524903535843 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[463/600] loss: 0.02330995351076126 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[464/600] loss: 0.023269057273864746 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[465/600] loss: 0.02317490056157112 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[466/600] loss: 0.023231754079461098 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[467/600] loss: 0.023146426305174828 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[468/600] loss: 0.023120272904634476 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[469/600] loss: 0.02329542115330696 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[470/600] loss: 0.02316836453974247 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[471/600] loss: 0.02319699339568615 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[472/600] loss: 0.02315944992005825 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[473/600] loss: 0.023222574964165688 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[474/600] loss: 0.023210084065794945 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[475/600] loss: 0.023260176181793213 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[476/600] loss: 0.023301832377910614 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[477/600] loss: 0.023175634443759918 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[478/600] loss: 0.023233534768223763 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[479/600] loss: 0.023344174027442932 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[480/600] loss: 0.023191047832369804 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[481/600] loss: 0.02320108376443386 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[482/600] loss: 0.023203060030937195 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[483/600] loss: 0.023271793499588966 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[484/600] loss: 0.02309987135231495 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[485/600] loss: 0.023122454062104225 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[486/600] loss: 0.023245345801115036 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[487/600] loss: 0.02315725013613701 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[488/600] loss: 0.023199735209345818 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[489/600] loss: 0.023250961676239967 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[490/600] loss: 0.02334112673997879 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[491/600] loss: 0.023264626041054726 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[492/600] loss: 0.023192962631583214 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[493/600] loss: 0.02315511740744114 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[494/600] loss: 0.023191168904304504 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[495/600] loss: 0.023317424580454826 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[496/600] loss: 0.023172782734036446 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[497/600] loss: 0.02319055050611496 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[498/600] loss: 0.02326011098921299 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[499/600] loss: 0.023180585354566574 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[500/600] loss: 0.023258427157998085 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[501/600] loss: 0.02324456349015236 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[502/600] loss: 0.023190077394247055 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[503/600] loss: 0.023226460441946983 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[504/600] loss: 0.023157890886068344 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[505/600] loss: 0.023198120296001434 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[506/600] loss: 0.02315519191324711 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[507/600] loss: 0.02310953661799431 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[508/600] loss: 0.023172831162810326 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[509/600] loss: 0.023210251703858376 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[510/600] loss: 0.02323761396110058 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[511/600] loss: 0.023207036778330803 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[512/600] loss: 0.023165639489889145 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[513/600] loss: 0.02331734448671341 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[514/600] loss: 0.023056864738464355 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[515/600] loss: 0.023183412849903107 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[516/600] loss: 0.023049714043736458 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[517/600] loss: 0.023155761882662773 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[518/600] loss: 0.02312527969479561 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[519/600] loss: 0.023400679230690002 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[520/600] loss: 0.023112410679459572 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[521/600] loss: 0.023184919729828835 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[522/600] loss: 0.023190589621663094 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[523/600] loss: 0.02314004860818386 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[524/600] loss: 0.023265400901436806 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[525/600] loss: 0.023259993642568588 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[526/600] loss: 0.023296864703297615 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[527/600] loss: 0.023184610530734062 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[528/600] loss: 0.023175116628408432 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[529/600] loss: 0.023125939071178436 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[530/600] loss: 0.023213885724544525 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[531/600] loss: 0.02326103486120701 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[532/600] loss: 0.023230809718370438 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[533/600] loss: 0.02319425903260708 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[534/600] loss: 0.02321964129805565 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[535/600] loss: 0.02306029014289379 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[536/600] loss: 0.023197367787361145 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[537/600] loss: 0.023221516981720924 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[538/600] loss: 0.02307189255952835 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[539/600] loss: 0.023107539862394333 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[540/600] loss: 0.023146184161305428 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[541/600] loss: 0.023107104003429413 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[542/600] loss: 0.023187724873423576 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[543/600] loss: 0.02324635162949562 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[544/600] loss: 0.023213746026158333 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[545/600] loss: 0.023008305579423904 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[546/600] loss: 0.023119891062378883 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[547/600] loss: 0.023182841017842293 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[548/600] loss: 0.023088520392775536 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[549/600] loss: 0.023137839511036873 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[550/600] loss: 0.023155774921178818 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[551/600] loss: 0.02329546958208084 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[552/600] loss: 0.023284561932086945 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[553/600] loss: 0.023143911734223366 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[554/600] loss: 0.02319439686834812 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[555/600] loss: 0.0232350155711174 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[556/600] loss: 0.023241154849529266 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[557/600] loss: 0.02302626706659794 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[558/600] loss: 0.023024076595902443 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[559/600] loss: 0.023177726194262505 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[560/600] loss: 0.023232273757457733 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[561/600] loss: 0.023138344287872314 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[562/600] loss: 0.023141657933592796 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[563/600] loss: 0.02315271645784378 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[564/600] loss: 0.02324288710951805 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[565/600] loss: 0.023120220750570297 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[566/600] loss: 0.02314787358045578 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[567/600] loss: 0.02321585640311241 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[568/600] loss: 0.02309020794928074 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[569/600] loss: 0.023152530193328857 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[570/600] loss: 0.0231519415974617 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[571/600] loss: 0.023198122158646584 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[572/600] loss: 0.02306845597922802 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[573/600] loss: 0.02310245856642723 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[574/600] loss: 0.023317541927099228 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[575/600] loss: 0.02312207967042923 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[576/600] loss: 0.023200133815407753 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[577/600] loss: 0.02307150885462761 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[578/600] loss: 0.023086922243237495 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[579/600] loss: 0.023206938058137894 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[580/600] loss: 0.02308826707303524 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[581/600] loss: 0.023142101243138313 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[582/600] loss: 0.02317759580910206 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[583/600] loss: 0.023214610293507576 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[584/600] loss: 0.023170264437794685 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[585/600] loss: 0.02314985729753971 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[586/600] loss: 0.02303748019039631 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[587/600] loss: 0.023175854235887527 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[588/600] loss: 0.023337824270129204 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[589/600] loss: 0.023101788014173508 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[590/600] loss: 0.023206904530525208 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[591/600] loss: 0.022986330091953278 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[592/600] loss: 0.023164745420217514 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[593/600] loss: 0.023189611732959747 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[594/600] loss: 0.023267682641744614 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[595/600] loss: 0.02321564592421055 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[596/600] loss: 0.0232657752931118 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[597/600] loss: 0.02308114431798458 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[598/600] loss: 0.02313784696161747 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[599/600] loss: 0.023115865886211395 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:EPOCH[600/600] loss: 0.023006614297628403 | file_name: 250101_2020_micro_video_mf_tpab_20npop_1e-3decay_0.001lr_1.0lamb1_64dim.txt
+INFO:root:End train and valid. Best validation epoch is 550.
+INFO:root:Validation:
+INFO:root:[Valid]: Precision: 0.0327-0.0252-0.017-0.0114 Recall: 0.1043-0.1488-0.2179-0.2776 NDCG: 0.0732-0.0872-0.1078-0.1221 MRR: 0.089-0.0928-0.0955-0.0966
+INFO:root:Validation:
+INFO:root:Recall@10	0.1043
+NDCG@10	0.0732
+Recall@20	0.1488
+NDCG@20	0.0872
+Recall@50	0.2179
+NDCG@50	0.1078
+
+INFO:root:[Test]: Precision: 0.0274-0.0217-0.0155-0.0106 Recall: 0.0873-0.1265-0.197-0.2524 NDCG: 0.0612-0.0738-0.094-0.1075 MRR: 0.0762-0.0802-0.0829-0.0839
+INFO:root:Test:
+INFO:root:Recall@10	0.0873
+NDCG@10	0.0612
+Recall@20	0.1265
+NDCG@20	0.0738
+Recall@50	0.197
+NDCG@50	0.094
+

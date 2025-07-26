@@ -8,7 +8,7 @@ decays = ['1e-3']
 redcims = [64]
 # Random seeds
 #seeds = [2018,2019,2020,2021,2022]
-seeds = [2018]
+seeds = [2020]
 
 # Datasets
 #datasets = ['micro_video','kuairand','yelp_10years']
@@ -16,7 +16,7 @@ datasets = ['micro_video']
 
 backbones = ['mf','lgn']
 backbones = ['mf']
-# backbones = ['lgn']
+backbones = ['lgn']
 
 gpu = 0
 
@@ -29,6 +29,7 @@ gpu = 0
 
 algos = ['tpab-global']
 algos = ['tpab']
+# algos = ['vanilla']
 
 
 # Bootstrap parameter lambda

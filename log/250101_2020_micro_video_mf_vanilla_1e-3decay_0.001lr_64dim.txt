@@ -1,0 +1,477 @@
+INFO:root:./log/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'vanilla', 'log_file': './log/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt', 'lambda': 1.0, 'n_pop_group': 10}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:./log/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:===========config================
+INFO:root:{'bpr_batch_size': 2048, 'latent_dim_rec': 64, 'lightGCN_n_layers': 3, 'lightGCN_n_layers_p': 3, 'dropout': 0, 'dropout_p': 0, 'keep_prob': 0.6, 'keep_prob_p': 0.6, 'A_n_fold': 100, 'test_u_batch_size': 2048, 'multicore': 0, 'lr': 0.001, 'decay': 0.001, 'pretrain': 0, 'A_split': False, 'bigdata': False, 'log': '250101', 'period': 8, 'predict': 0.2, 'algo': 'vanilla', 'log_file': './log/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt', 'lambda': 1.0, 'n_pop_group': 10}
+INFO:root:cores for test: 48
+INFO:root:comment: lgn
+INFO:root:tensorboard: 0
+INFO:root:LOAD: 0
+INFO:root:Weight path: ./checkpoints
+INFO:root:Test Topks: [10, 20, 50, 100]
+INFO:root:===========end===================
+INFO:root:>>SEED: 2020
+INFO:root:the user interaction of different stages are as followed:
+INFO:root:[20002, 28732, 17989, 31918, 18753, 31411, 18409, 24164, 9038, 10134]
+INFO:root:using our dataset
+INFO:root:load and save to ./code/checkpoints/250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt.pth.tar
+INFO:root:not enable tensorflowboard
+INFO:root:EPOCH[1/600] loss: 0.685793399810791 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[2/600] loss: 0.6623085141181946 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[3/600] loss: 0.6361215114593506 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[4/600] loss: 0.6050367951393127 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[5/600] loss: 0.5686854720115662 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[6/600] loss: 0.5248494744300842 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[7/600] loss: 0.4764724373817444 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[8/600] loss: 0.42671501636505127 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[9/600] loss: 0.378833144903183 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[10/600] loss: 0.3359929621219635 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[11/600] loss: 0.2969081401824951 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[12/600] loss: 0.2624014616012573 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[13/600] loss: 0.2332858145236969 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[14/600] loss: 0.20817403495311737 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[15/600] loss: 0.18671414256095886 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[16/600] loss: 0.16735944151878357 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[17/600] loss: 0.15239731967449188 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[18/600] loss: 0.1379825919866562 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[19/600] loss: 0.12557297945022583 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[20/600] loss: 0.11478579044342041 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[21/600] loss: 0.10462919622659683 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[22/600] loss: 0.096331387758255 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[23/600] loss: 0.0889081135392189 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[24/600] loss: 0.08244503289461136 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[25/600] loss: 0.07614313066005707 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[26/600] loss: 0.07129356265068054 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[27/600] loss: 0.06643321365118027 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[28/600] loss: 0.06247720494866371 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[29/600] loss: 0.05833655595779419 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[30/600] loss: 0.05507264658808708 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[31/600] loss: 0.05205150693655014 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[32/600] loss: 0.04890480637550354 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[33/600] loss: 0.04633110389113426 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[34/600] loss: 0.04427838698029518 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[35/600] loss: 0.04206559807062149 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[36/600] loss: 0.040013913065195084 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[37/600] loss: 0.038284871727228165 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[38/600] loss: 0.03651180863380432 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[39/600] loss: 0.034922268241643906 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[40/600] loss: 0.03367731720209122 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[41/600] loss: 0.03230889141559601 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[42/600] loss: 0.03128725662827492 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[43/600] loss: 0.029807554557919502 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[44/600] loss: 0.029089927673339844 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[45/600] loss: 0.028008541092276573 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[46/600] loss: 0.026885289698839188 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[47/600] loss: 0.026424607262015343 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[48/600] loss: 0.025674983859062195 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[49/600] loss: 0.02480889856815338 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[50/600] loss: 0.02427094802260399 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[51/600] loss: 0.023660652339458466 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[52/600] loss: 0.023094117641448975 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[53/600] loss: 0.02249167673289776 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[54/600] loss: 0.021903030574321747 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[55/600] loss: 0.021577969193458557 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[56/600] loss: 0.021069791167974472 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[57/600] loss: 0.020712561905384064 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[58/600] loss: 0.020188188180327415 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[59/600] loss: 0.019805073738098145 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[60/600] loss: 0.019449612125754356 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[61/600] loss: 0.019340666010975838 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[62/600] loss: 0.018924333155155182 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[63/600] loss: 0.018575014546513557 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[64/600] loss: 0.01830439269542694 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[65/600] loss: 0.018185731023550034 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[66/600] loss: 0.017838338389992714 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[67/600] loss: 0.017548490315675735 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[68/600] loss: 0.017201362177729607 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[69/600] loss: 0.017334826290607452 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[70/600] loss: 0.01687769405543804 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[71/600] loss: 0.0167610552161932 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[72/600] loss: 0.016552958637475967 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[73/600] loss: 0.016510244458913803 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[74/600] loss: 0.016195030882954597 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[75/600] loss: 0.016223344951868057 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[76/600] loss: 0.015914754942059517 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[77/600] loss: 0.015803907066583633 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[78/600] loss: 0.01579272747039795 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[79/600] loss: 0.015542329289019108 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[80/600] loss: 0.015467781573534012 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[81/600] loss: 0.015413898974657059 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[82/600] loss: 0.015211583115160465 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[83/600] loss: 0.015118302777409554 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[84/600] loss: 0.015028426423668861 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[85/600] loss: 0.01489910390228033 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[86/600] loss: 0.014847020618617535 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[87/600] loss: 0.014726899564266205 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[88/600] loss: 0.014678469859063625 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[89/600] loss: 0.014547159895300865 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[90/600] loss: 0.01459774374961853 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[91/600] loss: 0.014490262605249882 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[92/600] loss: 0.014310680329799652 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[93/600] loss: 0.014313806779682636 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[94/600] loss: 0.014280558563768864 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[95/600] loss: 0.014209645800292492 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[96/600] loss: 0.014072667807340622 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[97/600] loss: 0.014096198603510857 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[98/600] loss: 0.013958807103335857 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[99/600] loss: 0.013950323686003685 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[100/600] loss: 0.013972057960927486 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[101/600] loss: 0.013868053443729877 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[102/600] loss: 0.013778186403214931 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[103/600] loss: 0.01375934761017561 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[104/600] loss: 0.013632101938128471 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[105/600] loss: 0.013606985099613667 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[106/600] loss: 0.013592813163995743 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[107/600] loss: 0.013587744906544685 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[108/600] loss: 0.013554880395531654 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[109/600] loss: 0.013499975204467773 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[110/600] loss: 0.013476800173521042 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[111/600] loss: 0.013429306447505951 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[112/600] loss: 0.013367213308811188 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[113/600] loss: 0.013361690565943718 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[114/600] loss: 0.01330212689936161 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[115/600] loss: 0.01329049002379179 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[116/600] loss: 0.013204620219767094 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[117/600] loss: 0.013168209232389927 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[118/600] loss: 0.013186484575271606 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[119/600] loss: 0.013127966783940792 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[120/600] loss: 0.01314979512244463 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[121/600] loss: 0.013164045289158821 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[122/600] loss: 0.013065704144537449 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[123/600] loss: 0.01305363979190588 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[124/600] loss: 0.013047212734818459 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[125/600] loss: 0.012980802915990353 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[126/600] loss: 0.012997564859688282 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[127/600] loss: 0.012962935492396355 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[128/600] loss: 0.012923798523843288 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[129/600] loss: 0.01292821392416954 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[130/600] loss: 0.012914213351905346 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[131/600] loss: 0.012880923226475716 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[132/600] loss: 0.0128505639731884 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[133/600] loss: 0.012845804914832115 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[134/600] loss: 0.012815785594284534 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[135/600] loss: 0.012790617533028126 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[136/600] loss: 0.012771207839250565 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[137/600] loss: 0.01269551645964384 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[138/600] loss: 0.01282857172191143 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[139/600] loss: 0.012707010842859745 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[140/600] loss: 0.012712931260466576 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[141/600] loss: 0.012729480862617493 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[142/600] loss: 0.012705178931355476 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[143/600] loss: 0.012699044309556484 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[144/600] loss: 0.01264915056526661 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[145/600] loss: 0.01266027893871069 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[146/600] loss: 0.012671658769249916 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[147/600] loss: 0.012645728886127472 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[148/600] loss: 0.012574438005685806 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[149/600] loss: 0.012580115348100662 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[150/600] loss: 0.012593422085046768 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[151/600] loss: 0.01254774909466505 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[152/600] loss: 0.012543855234980583 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[153/600] loss: 0.012556714005768299 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[154/600] loss: 0.012512032873928547 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[155/600] loss: 0.012574439868330956 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[156/600] loss: 0.012551884166896343 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[157/600] loss: 0.012460652738809586 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[158/600] loss: 0.012457356788218021 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[159/600] loss: 0.012467361986637115 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[160/600] loss: 0.012503352016210556 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[161/600] loss: 0.012472251430153847 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[162/600] loss: 0.012480853125452995 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[163/600] loss: 0.012429086491465569 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[164/600] loss: 0.01243252120912075 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[165/600] loss: 0.012424194253981113 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[166/600] loss: 0.012415637262165546 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[167/600] loss: 0.012369857169687748 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[168/600] loss: 0.012411669827997684 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[169/600] loss: 0.012354708276689053 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[170/600] loss: 0.012328137643635273 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[171/600] loss: 0.012324074283242226 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[172/600] loss: 0.012316543608903885 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[173/600] loss: 0.012303248979151249 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[174/600] loss: 0.012335602194070816 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[175/600] loss: 0.012268218211829662 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[176/600] loss: 0.012329954653978348 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[177/600] loss: 0.012350806966423988 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[178/600] loss: 0.012250981293618679 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[179/600] loss: 0.012296446599066257 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[180/600] loss: 0.012349309399724007 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[181/600] loss: 0.012308510020375252 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[182/600] loss: 0.012264953926205635 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[183/600] loss: 0.01222164649516344 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[184/600] loss: 0.012213785201311111 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[185/600] loss: 0.012209021486341953 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[186/600] loss: 0.012178084813058376 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[187/600] loss: 0.01222344022244215 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[188/600] loss: 0.012208600528538227 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[189/600] loss: 0.012207460589706898 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[190/600] loss: 0.012194063514471054 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[191/600] loss: 0.012161310762166977 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[192/600] loss: 0.01216535922139883 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[193/600] loss: 0.012198574841022491 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[194/600] loss: 0.01214668434113264 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[195/600] loss: 0.01218944601714611 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[196/600] loss: 0.012173530645668507 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[197/600] loss: 0.01219442393630743 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[198/600] loss: 0.012168314307928085 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[199/600] loss: 0.012150454334914684 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[200/600] loss: 0.012138175778090954 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[201/600] loss: 0.012215211056172848 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[202/600] loss: 0.012114504352211952 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[203/600] loss: 0.012130685150623322 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[204/600] loss: 0.012145120650529861 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[205/600] loss: 0.012138319201767445 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[206/600] loss: 0.012070782482624054 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[207/600] loss: 0.012090332806110382 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[208/600] loss: 0.012164450250566006 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[209/600] loss: 0.012166598811745644 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[210/600] loss: 0.012061836197972298 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[211/600] loss: 0.012174278497695923 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[212/600] loss: 0.012115446850657463 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[213/600] loss: 0.012078429572284222 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[214/600] loss: 0.012106992304325104 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[215/600] loss: 0.012112530879676342 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[216/600] loss: 0.012082535773515701 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[217/600] loss: 0.012090968899428844 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[218/600] loss: 0.012063894420862198 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[219/600] loss: 0.012065009213984013 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[220/600] loss: 0.012121726758778095 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[221/600] loss: 0.012077925726771355 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[222/600] loss: 0.012035101652145386 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[223/600] loss: 0.012049693614244461 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[224/600] loss: 0.012039834633469582 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[225/600] loss: 0.011986972764134407 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[226/600] loss: 0.012036432512104511 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[227/600] loss: 0.012036163359880447 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[228/600] loss: 0.012007882818579674 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[229/600] loss: 0.011981778778135777 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[230/600] loss: 0.012039762921631336 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[231/600] loss: 0.012064468115568161 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[232/600] loss: 0.012034072540700436 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[233/600] loss: 0.011988969519734383 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[234/600] loss: 0.011979651637375355 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[235/600] loss: 0.011991690844297409 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[236/600] loss: 0.011980440467596054 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[237/600] loss: 0.011979562230408192 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[238/600] loss: 0.012008349411189556 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[239/600] loss: 0.011995524168014526 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[240/600] loss: 0.011997335590422153 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[241/600] loss: 0.011947493068873882 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[242/600] loss: 0.01197159755975008 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[243/600] loss: 0.012017338536679745 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[244/600] loss: 0.011973952874541283 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[245/600] loss: 0.01199345476925373 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[246/600] loss: 0.012010999023914337 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[247/600] loss: 0.012006104923784733 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[248/600] loss: 0.011974284425377846 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[249/600] loss: 0.011956902220845222 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[250/600] loss: 0.011983192525804043 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[251/600] loss: 0.011984679847955704 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[252/600] loss: 0.011997746303677559 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[253/600] loss: 0.01196199283003807 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[254/600] loss: 0.011982258409261703 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[255/600] loss: 0.011933401226997375 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[256/600] loss: 0.011923454701900482 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[257/600] loss: 0.011948199942708015 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[258/600] loss: 0.012028906494379044 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[259/600] loss: 0.01197844184935093 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[260/600] loss: 0.011996185407042503 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[261/600] loss: 0.011942889541387558 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[262/600] loss: 0.011934129521250725 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[263/600] loss: 0.011981767602264881 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[264/600] loss: 0.011940846219658852 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[265/600] loss: 0.012079370208084583 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[266/600] loss: 0.011961249634623528 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[267/600] loss: 0.011938381008803844 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[268/600] loss: 0.011936710216104984 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[269/600] loss: 0.0119675537571311 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[270/600] loss: 0.011883066035807133 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[271/600] loss: 0.011900338344275951 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[272/600] loss: 0.011896912939846516 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[273/600] loss: 0.011931154876947403 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[274/600] loss: 0.01191889587789774 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[275/600] loss: 0.01198029238730669 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[276/600] loss: 0.011944330297410488 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[277/600] loss: 0.011948964558541775 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[278/600] loss: 0.011907891370356083 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[279/600] loss: 0.011909500695765018 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[280/600] loss: 0.01197926513850689 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[281/600] loss: 0.011895298957824707 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[282/600] loss: 0.011966852471232414 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[283/600] loss: 0.01187891885638237 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[284/600] loss: 0.011878001503646374 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[285/600] loss: 0.011888463981449604 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[286/600] loss: 0.011922353878617287 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[287/600] loss: 0.011803900822997093 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[288/600] loss: 0.01194180641323328 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[289/600] loss: 0.011935790069401264 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[290/600] loss: 0.011927297338843346 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[291/600] loss: 0.011891990900039673 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[292/600] loss: 0.011872254312038422 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[293/600] loss: 0.011960736475884914 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[294/600] loss: 0.011864569038152695 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[295/600] loss: 0.011861571110785007 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[296/600] loss: 0.011890687048435211 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[297/600] loss: 0.011896233074367046 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[298/600] loss: 0.011833643540740013 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[299/600] loss: 0.01182927843183279 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[300/600] loss: 0.011896580457687378 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[301/600] loss: 0.011776321567595005 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[302/600] loss: 0.011853893287479877 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[303/600] loss: 0.011935870163142681 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[304/600] loss: 0.011836523190140724 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[305/600] loss: 0.011844402179121971 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[306/600] loss: 0.011874586343765259 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[307/600] loss: 0.011946521699428558 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[308/600] loss: 0.011914107948541641 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[309/600] loss: 0.011902879923582077 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[310/600] loss: 0.011798187159001827 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[311/600] loss: 0.011898595839738846 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[312/600] loss: 0.01193703431636095 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[313/600] loss: 0.011904082261025906 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[314/600] loss: 0.011855792254209518 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[315/600] loss: 0.01179105881601572 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[316/600] loss: 0.011818259954452515 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[317/600] loss: 0.011901666410267353 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[318/600] loss: 0.011881948448717594 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[319/600] loss: 0.011942260898649693 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[320/600] loss: 0.011838958598673344 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[321/600] loss: 0.011855385266244411 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[322/600] loss: 0.011838900856673717 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[323/600] loss: 0.011788464151322842 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[324/600] loss: 0.011826560832560062 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[325/600] loss: 0.01179693453013897 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[326/600] loss: 0.011849476955831051 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[327/600] loss: 0.011807327158749104 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[328/600] loss: 0.011857348494231701 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[329/600] loss: 0.011847949586808681 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[330/600] loss: 0.0119064562022686 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[331/600] loss: 0.011871001683175564 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[332/600] loss: 0.011893894523382187 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[333/600] loss: 0.01181788183748722 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[334/600] loss: 0.011841540224850178 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[335/600] loss: 0.011811555363237858 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[336/600] loss: 0.011886639520525932 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[337/600] loss: 0.01188993826508522 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[338/600] loss: 0.01186461467295885 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[339/600] loss: 0.011902942322194576 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[340/600] loss: 0.011960913427174091 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[341/600] loss: 0.011829006485641003 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[342/600] loss: 0.011821609921753407 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[343/600] loss: 0.011853519827127457 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[344/600] loss: 0.011845691129565239 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[345/600] loss: 0.011888395994901657 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[346/600] loss: 0.01190530601888895 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[347/600] loss: 0.011868036352097988 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[348/600] loss: 0.011868040077388287 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[349/600] loss: 0.011886355467140675 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[350/600] loss: 0.011786741204559803 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[351/600] loss: 0.011861535720527172 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[352/600] loss: 0.011819638311862946 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[353/600] loss: 0.011879852041602135 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[354/600] loss: 0.011744866147637367 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[355/600] loss: 0.011871356517076492 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[356/600] loss: 0.011845466680824757 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[357/600] loss: 0.011820710264146328 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[358/600] loss: 0.011798439547419548 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[359/600] loss: 0.011849187314510345 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[360/600] loss: 0.011773527599871159 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[361/600] loss: 0.011876316741108894 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[362/600] loss: 0.011807958595454693 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[363/600] loss: 0.011866998858749866 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[364/600] loss: 0.01188113447278738 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[365/600] loss: 0.011765537783503532 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[366/600] loss: 0.011786794289946556 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[367/600] loss: 0.011829552240669727 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[368/600] loss: 0.011803778819739819 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[369/600] loss: 0.011752654798328876 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[370/600] loss: 0.011844509281218052 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[371/600] loss: 0.011828215792775154 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[372/600] loss: 0.01179699320346117 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[373/600] loss: 0.011739157140254974 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[374/600] loss: 0.011840312741696835 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[375/600] loss: 0.011795044876635075 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[376/600] loss: 0.011805446818470955 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[377/600] loss: 0.01176644116640091 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[378/600] loss: 0.011786445043981075 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[379/600] loss: 0.011894327588379383 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[380/600] loss: 0.011819062754511833 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[381/600] loss: 0.011789212003350258 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[382/600] loss: 0.01182508934289217 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[383/600] loss: 0.01183334644883871 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[384/600] loss: 0.011792190372943878 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[385/600] loss: 0.011807400733232498 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[386/600] loss: 0.011824210174381733 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[387/600] loss: 0.011835508979856968 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[388/600] loss: 0.011823654174804688 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[389/600] loss: 0.01171850971877575 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[390/600] loss: 0.011788845993578434 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[391/600] loss: 0.011871003545820713 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[392/600] loss: 0.011826957575976849 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[393/600] loss: 0.01184720266610384 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[394/600] loss: 0.011809414252638817 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[395/600] loss: 0.011775256134569645 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[396/600] loss: 0.011756053194403648 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[397/600] loss: 0.01177138276398182 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[398/600] loss: 0.011823462322354317 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[399/600] loss: 0.011824476532638073 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[400/600] loss: 0.011827911250293255 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[401/600] loss: 0.01177563238888979 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[402/600] loss: 0.011816808022558689 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[403/600] loss: 0.011822962202131748 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[404/600] loss: 0.01176072284579277 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[405/600] loss: 0.011757966130971909 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[406/600] loss: 0.011807519942522049 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[407/600] loss: 0.011758566834032536 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[408/600] loss: 0.011750409379601479 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[409/600] loss: 0.011765772476792336 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[410/600] loss: 0.01181093230843544 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[411/600] loss: 0.011758854612708092 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[412/600] loss: 0.01174964476376772 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[413/600] loss: 0.011759833432734013 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[414/600] loss: 0.011728411540389061 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[415/600] loss: 0.011803845874965191 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[416/600] loss: 0.011731326580047607 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[417/600] loss: 0.011775351129472256 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[418/600] loss: 0.011715584434568882 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[419/600] loss: 0.011836075223982334 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[420/600] loss: 0.01174909807741642 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[421/600] loss: 0.011791720055043697 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[422/600] loss: 0.011768342927098274 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[423/600] loss: 0.011733027175068855 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[424/600] loss: 0.011735874228179455 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:EPOCH[425/600] loss: 0.011749472469091415 | file_name: 250101_2020_micro_video_mf_vanilla_1e-3decay_0.001lr_64dim.txt
+INFO:root:End train and valid. Best validation epoch is 330.
+INFO:root:Validation:
+INFO:root:[Valid]: Precision: 0.0302-0.0247-0.0153-0.0104 Recall: 0.0954-0.1392-0.1973-0.2543 NDCG: 0.0696-0.0843-0.1011-0.1146 MRR: 0.0861-0.0899-0.0921-0.0929
+INFO:root:Validation:
+INFO:root:Recall@10	0.0954
+NDCG@10	0.0696
+Recall@20	0.1392
+NDCG@20	0.0843
+Recall@50	0.1973
+NDCG@50	0.1011
+
+INFO:root:[Test]: Precision: 0.0245-0.0203-0.0141-0.0097 Recall: 0.0774-0.1178-0.1837-0.2371 NDCG: 0.0553-0.0682-0.0867-0.0997 MRR: 0.0715-0.0755-0.0779-0.0789
+INFO:root:Test:
+INFO:root:Recall@10	0.0774
+NDCG@10	0.0553
+Recall@20	0.1178
+NDCG@20	0.0682
+Recall@50	0.1837
+NDCG@50	0.0867
+

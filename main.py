@@ -141,12 +141,15 @@ try:
                 loss.backward()
                 Recmodel.opt.step()
                 Recmodel.opt.zero_grad()
+                
 
-
+        aver_loss = aver_loss / idx
         #logging.info(f'EPOCH[{epoch+1}/{world.TRAIN_epochs}] {aver_loss.item()}')
         titer.set_description(f'EPOCH[{epoch+1}/{world.TRAIN_epochs}] loss: {aver_loss.item()} | file_name: {world.config["log_file"][6:]}')
         training_time, time_ = _check_time(time_)
         time_list.append(training_time)
+
+        #logging.info(f'EPOCH[{epoch+1}/{world.TRAIN_epochs}] loss: {aver_loss.item()} | file_name: {world.config["log_file"][6:]}')
 
         early_stop = 100
         patience = 20
