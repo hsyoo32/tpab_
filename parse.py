@@ -18,11 +18,11 @@ def parse_args():
     parser.add_argument('--keepprob', type=float,default=0.6,
                         help="")
     
-    parser.add_argument('--layer_p', type=int,default=3,
+    parser.add_argument('--layer_p', type=int,default=0,
                         help="the layer num of lightGCN for popularity")
     parser.add_argument('--dropout_p', type=float,default=0,
                         help="using the dropout or not for popularity")
-    parser.add_argument('--keepprob_p', type=float,default=0.6,
+    parser.add_argument('--keepprob_p', type=float,default=0,
                         help="")
 
     parser.add_argument('--a_fold', type=int,default=100,

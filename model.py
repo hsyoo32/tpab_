@@ -538,20 +538,15 @@ class LightGCN_TPAB(BasicModel):
     
     def bpr_loss(self, users, pos, neg, stage, pos_pop, neg_pop, pos_local_pop, neg_local_pop,
                  users_pop, users_local_pop, predictor, world):
-        # users_emb = self.embedding_user(users.long())
-        # pos_emb   = self.embedding_item(pos.long())
-        # neg_emb   = self.embedding_item(neg.long())
+
         (users_emb, pos_emb, neg_emb, 
         userEmb0,  posEmb0, negEmb0) = self.getEmbedding(users.long(), pos.long(), neg.long())
 
         # true popularity: pos_pop, neg_pop; 
         # pos_pop => list of list of user popularity at each stage
         # extract the user popularity at the current stage using "stage"
-        pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-        neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-        pos_pred_local_pop = (pos_local_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-        neg_pred_local_pop = (neg_local_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
-        users_pred_pop = (users_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        # pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
+        # neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
 
         item_idx_list = self.dataset.sep_temporal_item_pop_idx
         # graph convolution for each time stage graph
@@ -586,6 +581,8 @@ class LightGCN_TPAB(BasicModel):
         reg_loss = (1/2)*(userEmb0.norm(2).pow(2) + posEmb0.norm(2).pow(2) + negEmb0.norm(2).pow(2)
                     +userpopEmb0.norm(2).pow(2) + pospopEmb0.norm(2).pow(2) + negpopEmb0.norm(2).pow(2)
                     )/float(len(users))
+
+        
 
         loss = torch.negative(torch.log(torch.sigmoid(pos_scores - neg_scores)+1e-10))
         loss = loss + reg_loss * self.weight_decay
@@ -655,6 +652,10 @@ class LightGCN_TPAB(BasicModel):
         neg_new = torch.cat([neg_pop_new, neg_emb], dim=1)
         pos_new_0 = torch.cat([posPopEmb0[random_order], posEmb0], dim=1)
         neg_new_0 = torch.cat([negPopEmb0[random_order], negEmb0], dim=1)
+
+        users_pop_new = users_pop_emb[random_order]
+        users_new = torch.cat([users_pop_new, users_emb], dim=1)
+        users_new_0 = torch.cat([userPopEmb0[random_order], userEmb0], dim=1)
 
         loss_new = self.bpr_loss_(users_ori, pos_new, neg_new, users_ori_0, pos_new_0, neg_new_0, batch_size)
 

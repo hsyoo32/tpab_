@@ -1,7 +1,7 @@
 # TPAB
 
 **NOTE**
-We noticed that the first uploaded version had an error and did not apply popularity coarsening and bootstrapping. The July 26, 2023 version fixes this problem.
+We noticed that the first uploaded version had an error and did not apply popularity coarsening and bootstrapping. The July 26, 2025 version fixes this problem.
 
 This repository contains the implementation of **TPAB** (Temporal Popularity Distribution Shift GeneralizABle Recommender System), as proposed in the paper *"Generalizable Recommender System During Temporal Popularity Distribution Shifts"* (KDD'25 V1): [https://doi.org/10.1145/3690624.3709299](https://doi.org/10.1145/3690624.3709299).
 
