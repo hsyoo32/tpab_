@@ -548,26 +548,39 @@ class LightGCN_TPAB(BasicModel):
         # pos_pred_pop = (pos_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
         # neg_pred_pop = (neg_pop.T * F.one_hot(stage, num_classes=world.config['period']+2)).sum(1)
 
-        item_idx_list = self.dataset.sep_temporal_item_pop_idx
-        # graph convolution for each time stage graph
-        all_users_pop = []
-        all_items_pop = []
-        for time in range(world.config['period']):
-            item_idx = self.get_reindexed_list(item_idx_list[time], 'item')
-            all_users_pop_t, all_items_pop_t = self.computer_p(self.embedding_user_pop.weight,
-                                                            self.embedding_item_pop.weight[item_idx])
-            all_users_pop.append(all_users_pop_t)
-            all_items_pop.append(all_items_pop_t)
+        if 'global' in world.config['algo']:
+            item_idx = self.get_reindexed_list(self.dataset.global_item_pop_idx, 'item')
+            user_idx = users.long()
+            self.all_users_pop, self.all_items_pop = self.computer_p(self.embedding_user_pop.weight,
+                                                    self.embedding_item_pop.weight[item_idx])
+            userpopEmb0 = self.embedding_user_pop(users.long())
+            users_pop_emb = self.all_users_pop[users.long()]
+            pos_pop_emb = self.all_items_pop[pos.long()]
+            neg_pop_emb = self.all_items_pop[neg.long()]
+            pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
+            negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
 
-        all_users_pop = torch.stack(all_users_pop, dim=0)
-        all_items_pop = torch.stack(all_items_pop, dim=0)
+        else:
+            item_idx_list = self.dataset.sep_temporal_item_pop_idx
+            # graph convolution for each time stage graph
+            all_users_pop = []
+            all_items_pop = []
+            for time in range(world.config['period']):
+                item_idx = self.get_reindexed_list(item_idx_list[time], 'item')
+                all_users_pop_t, all_items_pop_t = self.computer_p(self.embedding_user_pop.weight,
+                                                                self.embedding_item_pop.weight[item_idx])
+                all_users_pop.append(all_users_pop_t)
+                all_items_pop.append(all_items_pop_t)
 
-        pos_pop_emb = all_items_pop[stage, pos.long()]
-        neg_pop_emb = all_items_pop[stage, neg.long()]
-        users_pop_emb = all_users_pop[stage, users.long()]
-        userpopEmb0 = self.embedding_user_pop(users.long())
-        pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
-        negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
+            all_users_pop = torch.stack(all_users_pop, dim=0)
+            all_items_pop = torch.stack(all_items_pop, dim=0)
+
+            pos_pop_emb = all_items_pop[stage, pos.long()]
+            neg_pop_emb = all_items_pop[stage, neg.long()]
+            users_pop_emb = all_users_pop[stage, users.long()]
+            userpopEmb0 = self.embedding_user_pop(users.long())
+            pospopEmb0 = self.embedding_item_pop(item_idx[pos.long()])
+            negpopEmb0 = self.embedding_item_pop(item_idx[neg.long()])
 
         # Compute losses based on the embeddings
         pos_scores = torch.sum(users_emb*pos_emb, dim=1)
@@ -581,8 +594,6 @@ class LightGCN_TPAB(BasicModel):
         reg_loss = (1/2)*(userEmb0.norm(2).pow(2) + posEmb0.norm(2).pow(2) + negEmb0.norm(2).pow(2)
                     +userpopEmb0.norm(2).pow(2) + pospopEmb0.norm(2).pow(2) + negpopEmb0.norm(2).pow(2)
                     )/float(len(users))
-
-        
 
         loss = torch.negative(torch.log(torch.sigmoid(pos_scores - neg_scores)+1e-10))
         loss = loss + reg_loss * self.weight_decay
